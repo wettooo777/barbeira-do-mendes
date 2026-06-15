@@ -1,0 +1,167 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #FEFEFE;
+    color: #333333;
+}
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+    font-size: 2em;
+}
+
+#banner {
+    width: 100%;
+}
+
+/* --- Página Inicial (Sobre) --- */
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: both;
+}
+
+.principal p {
+    margin: 0 0 1em;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+#missao {
+    font-size: 20px;
+    padding: 20px;
+    background: #777777;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.beneficios {
+    padding: 3em 0;
+    background: #EEEEEE;
+}
+
+.beneficios .titulo-centralizado {
+    margin-bottom: 2em;
+}
+
+.beneficios ul {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20%;
+}
+
+.itens {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.itens:before {
+    content: "★ ";
+    color: #C78C19;
+}
+
+.imagembeneficios {
+    width: 60%;
+    max-width: 400px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px #000000;
+    border-radius: 10px;
+}
+
+/* --- Página de Produtos --- */
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.produtos li {
+    background: #FFFFFF;
+    text-align: center;
+    width: 30%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.produtos img {
+    max-width: 100%;
+    border 10px;
