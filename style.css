@@ -50,7 +50,6 @@ nav a:hover {
     width: 100%;
 }
 
-/* --- Página Inicial (Sobre) --- */
 .principal {
     padding: 3em 0;
     background: #FEFEFE;
@@ -124,7 +123,6 @@ nav a:hover {
     border-radius: 10px;
 }
 
-/* --- Página de Produtos --- */
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -164,4 +162,69 @@ nav a:hover {
 
 .produtos img {
     max-width: 100%;
-    border 10px;
+    border: 10%;
+}
+
+/* Adicione ou substitua isso no final do seu style.css */
+
+footer {
+    background: #333333;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+/* Estilos básicos para o formulário de Contato ficar bonito */
+form {
+    width: 940px;
+    margin: 40px auto;
+}
+
+form h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+legend, form p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.input-texto {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 5px;
+}
